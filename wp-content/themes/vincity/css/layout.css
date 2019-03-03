@@ -1,0 +1,37 @@
+body {
+	font-family: 'Roboto', sans-serif;
+}
+.layout-left .slogan {
+	text-align: right;
+}
+.layout-left h1 {
+	text-transform: uppercase;
+	font-weight: 300;
+	color: #27416F;
+	font-size: 18px;
+	margin-top: 30px;
+}
+
+.layout-left .carousel-inner > .item > img,
+.layout-left .carousel-inner > .item > a > img {
+    width: 70%;
+    margin: auto;
+  }*
+ .custab {
+    background-color: rgba(41, 63, 113, 0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 2;
+}
+ .custab  a {
+    color: #fff;
+    font-size: 13px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    line-height: 60px;
+    display: block;
+}
